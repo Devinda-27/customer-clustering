@@ -1,9 +1,1 @@
-import pickle
 
-# Pastikan 'model' adalah nama variabel K-Means kamu
-with open('model.pkl', 'wb') as f:
-    pickle.dump(model, f)
-
-# Download filenya ke komputer kamu
-from google.colab import files
-files.download('model.pkl')
